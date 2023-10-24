@@ -1,0 +1,59 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    color: #bb1b47;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-transform: capitalize;
+    font-weight: normal;
+    letter-spacing: .1rem;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.site-intro {
+    font-size: 1.25rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+    padding: 0.5em 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+  
+nav a:link {
+   background-color: #D2C960;
+}
+
+nav a:visited {
+    background-color: #0071A9;
+}
+  
+nav a:hover {
+    background-color: #bb1b47;
+    font-size: 1.5em;
+}
+  
+nav a:active {
+    background-color: #0B1710;
+}
+  
+ 
