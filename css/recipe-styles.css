@@ -158,3 +158,75 @@ footer ul {
 footer p {
     clear: both;
 }
+
+/* media query for mobile viewport */
+@media (max-width: 360px), print {
+    html {
+        line-height: 135%;
+    }
+
+    nav ul {
+        padding: 0;
+        font-size: .3rem;
+    }
+
+    nav a {
+        padding: 5px;
+        letter-spacing: normal;
+        font-size: .9rem;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        text-shadow: none;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: .9rem;
+    }
+
+    img {
+        float: none;
+        max-width: 60%;
+        margin-left: 20%;
+    }
+
+    .rate {
+        font-size: 1rem;
+    }
+
+    .details,
+    .ingredients, 
+    .instructions, 
+    .nutrition {
+        width: 90%;
+        float: none;
+    }
+
+    blockquote {
+        max-width: 84%;
+        max-height: 80%;
+    }
+
+    .col1, 
+    .col2, 
+    .col3 {
+        display: block;
+        float: none;
+        width: 90%;
+        font-size: .9rem;
+    } 
+}
+
+/* media query for tablet viewport
+@media (max-width: 810px), print{
+    
+} */
