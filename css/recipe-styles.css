@@ -171,9 +171,10 @@ footer p {
     }
 
     nav a {
-        padding: 5px;
+        padding: 3px;
         letter-spacing: normal;
         font-size: .9rem;
+        display: block;
     }
 
     main {
